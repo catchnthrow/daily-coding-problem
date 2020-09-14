@@ -7,7 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 
-namespace daily_coding_problem
+namespace daily_coding_problem.Problems
 {
     public class Problem485
     {

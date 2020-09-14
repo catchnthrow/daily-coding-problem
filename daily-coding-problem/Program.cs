@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.Design;
-using System.Runtime.CompilerServices;
-using System.Text;
+﻿using daily_coding_problem.Problems;
 
 namespace daily_coding_problem
 {
@@ -11,7 +7,8 @@ namespace daily_coding_problem
         static void Main(string[] args)
         {
 
-            Problem485.Start();
+            //Problem485.Start();
+            Problem487.Start();
         }
 
 
