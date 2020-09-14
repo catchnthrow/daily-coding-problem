@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Metadata.Ecma335;
 using System.Text;
 
 namespace daily_coding_problem.Problems
@@ -34,7 +31,7 @@ namespace daily_coding_problem.Problems
             var output = new StringBuilder(string.Empty);
             var index = Array.IndexOf(s, k);
             var treeLevel = 0;
-            
+
             //Find the level of tree that we are talking about
             for (int i = 0; i < 2024; i++)
             {
@@ -48,7 +45,7 @@ namespace daily_coding_problem.Problems
             treeLevel--; // now we are at one level above the level we are concerned about.
             var startIndexAtLevel = Math.Pow(2, treeLevel - 1) - 1;
             var endIndexAtLevel = startIndexAtLevel * 2;
-            
+
             for (var i = startIndexAtLevel; i <= endIndexAtLevel; i++)
             {
                 var t1 = Convert.ToInt32((2 * i) + 1);
