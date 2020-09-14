@@ -12,8 +12,8 @@ Example: given s = "abcba" and k = 2, the longest substring with k distinct char
 
 # Problem 487: Given a binary tree and a particular node, find all cousins of that node.
 Two nodes in a binary tree can be called cousins if they are on the same level of the tree but have different parents. For example, in the following diagram 4 and 6 are cousins.
-#   1
+###   1
 
-#  23
+###  23
 
-# 456
+### 456
