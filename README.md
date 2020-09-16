@@ -12,12 +12,33 @@ Example: given s = "abcba" and k = 2, the longest substring with k distinct char
 ___________________________________________________________________________________________________________________________________________________________________________________
 ### Problem 487: Given a binary tree and a particular node, find all cousins of that node.
 Two nodes in a binary tree can be called cousins if they are on the same level of the tree but have different parents. For example, in the following diagram 4 and 6 are cousins.
-####   1
-
-####  23
-
-#### 456
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/ &nbsp;&nbsp;&nbsp;\ &nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;<br>
+&nbsp;&nbsp;&nbsp;/ &nbsp;&nbsp;\ &nbsp;&nbsp;&nbsp;/ &nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;4&nbsp;&nbsp;&nbsp;&nbsp;5&nbsp;6&nbsp;&nbsp;&nbsp;&nbsp;<br>
 ___________________________________________________________________________________________________________________________________________________________________________________
 
 ### Problem 489: Given an array of elements, return the length of the longest subarray where all its elements are distinct.
 For example, given the array [5, 1, 3, 5, 2, 3, 4, 1], return 5 as the longest subarray of distinct elements is [5, 2, 3, 4, 1].
+
+___________________________________________________________________________________________________________________________________________________________________________________
+### Problem 490: Given the root to a binary tree, return its bottom view.
+The horizontal distance of a binary tree node describes how far left or right the node will be when the tree is printed out.
+
+More rigorously, we can define it as follows:
+
+The horizontal distance of the root is 0.
+The horizontal distance of a left child is hd(parent) - 1.
+The horizontal distance of a right child is hd(parent) + 1.
+
+For example, for the following tree, hd(1) = -2, and hd(6) = 0
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;\ &nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7&nbsp;<br>
+&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;\ &nbsp;&nbsp;/&nbsp;&nbsp;\ &nbsp;<br>
+&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;6&nbsp;&nbsp;&nbsp;9&nbsp;<br>
+&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;<br>
+0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8&nbsp;<br>
