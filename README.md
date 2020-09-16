@@ -42,3 +42,7 @@ For example, for the following tree, hd(1) = -2, and hd(6) = 0
 &nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;6&nbsp;&nbsp;&nbsp;9&nbsp;<br>
 &nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;<br>
 0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8&nbsp;<br>
+
+___________________________________________________________________________________________________________________________________________________________________________________
+### Problem 491: Write a program that checks whether an integer is a palindrome (without using string)
+For example, 121 is a palindrome, as well as 888. 678 is not a palindrome. Do not convert the integer into a string.
